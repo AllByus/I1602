@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:scaleType="fitXY"
+        android:id="@+id/iv_home_show_pic"
+        />
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/sale"
+        android:text="3.3折"
+        android:id="@+id/tv_discounts"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:paddingBottom="4dp"
+        android:lines="2"
+        android:layout_alignParentTop="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_price"
+        android:layout_below="@id/iv_home_show_pic"
+        android:text="￥117.0"
+        />
+
+
+</RelativeLayout>

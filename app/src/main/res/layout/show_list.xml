@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="1dp"
+        android:layout_height="130dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/iv_detail_show_pic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_discounts_detail"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/sale"
+            android:gravity="center"
+            android:lines="2"
+            android:paddingBottom="4dp"
+            android:text="3.3折"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_weight="5">
+
+        <TextView
+            android:id="@+id/tv_detail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="黄色包装" />
+        android:layout_height="80dp">
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:id="@+id/tv_detail_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="￥49.0" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

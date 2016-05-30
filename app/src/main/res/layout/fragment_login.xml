@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.frg.LoginFragment">
+
+    <EditText
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_edit"
+        android:hint="手机号码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_edit"
+        android:hint="验证码"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <EditText
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_edit"
+        android:hint="密码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:text="显示密码"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:background="@color/pink"
+        android:layout_gravity="center"
+        android:text="注册"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+        android:text="点击“注册”，即表示您同意并愿意遵守海呗"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:text="seashellmall.com服务条款隐私条款"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="您也可以"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_gravity="center"
+        android:src="@drawable/icon_wx_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>
